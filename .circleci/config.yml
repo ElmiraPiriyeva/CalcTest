@@ -16,7 +16,7 @@ jobs:
 
       # build and push docker image to docker hub
       - run: mvn clean compile jib:build
-      - -Djib.to.auth.username=$DOCKER_USER
+        -Djib.to.auth.username=$DOCKER_USER
         -Djib.to.auth.password=$DOCKER_PASS
         -Dimage=emapiri/calctest:$CIRCLE_BUILD_NUM
 
