@@ -75,7 +75,12 @@
 					<from>
 						<image>openjdk:11-jdk-slim</image>
 					</from>
-
+					<to>
+						<auth>
+							<username>emapiri</username>
+							<password>qwerty777@</password>
+						</auth>
+					</to>
 					<container>
 						<ports>
 							<port>8080</port>
